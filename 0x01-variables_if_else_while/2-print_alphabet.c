@@ -1,18 +1,19 @@
 #include <stdio.h>
 
 /**
- *main - prints alphabets with putchar only
- *
- *Return: 0 means success
- */
+ * * main - code entry point
+ * *
+ * * Return: 0 for success
+ * */
 
 int main(void)
-{	char c;
+{
+	char alpha;
 
-	for (c = "a"; c <= "z"; ++c)
-	putchar(c);
-	putchar("\n");
+	for (alpha = 'a'; alpha <= 'z'; ++alpha)
+		putchar(alpha);
+	putchar('\n');
 
 	return (0);
-
 }
+
