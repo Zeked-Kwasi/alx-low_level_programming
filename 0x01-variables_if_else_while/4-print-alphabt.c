@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - code entry
 *
@@ -21,4 +20,5 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+
 }
