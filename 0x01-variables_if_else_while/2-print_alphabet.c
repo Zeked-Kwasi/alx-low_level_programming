@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * * main - code entry point
- * *
- * * Return: 0 for success
- * */
+ * main - code entry point
+ *
+ * Return: 0 for success
+ */
 
 int main(void)
 {
