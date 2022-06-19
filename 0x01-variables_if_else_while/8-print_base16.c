@@ -11,7 +11,7 @@ int main(void)
 char hexdigit;
 
 for (hexdigit = '0'; hexdigit <= '9'; ++hexdigit)
-}
+{
 	putchar(hexdigit);
 }
 
