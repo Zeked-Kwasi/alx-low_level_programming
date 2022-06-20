@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - code entry
+ * print_alphabet - code entry
  *
  * Return: empty
  *
