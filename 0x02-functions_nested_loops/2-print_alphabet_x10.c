@@ -9,17 +9,14 @@
 
 void print_alphabet_x10(void)
 {
-char alpha;
-int freq;
-
-for (freq = '0'; freq < 10; ++freq)
+char c;
+int i;
+for (i = 0; i < 10; i++)
 {
-	for (alpha = 'a'; alpha <= 'z'; ++alpha)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(alpha);
+		_putchar(c);
 	}
-
 	_putchar('\n');
 }
-
 }
