@@ -18,7 +18,7 @@ while (*(s + num_1))
 	num_1++;
 }
 num_1 -= 1;
-while (i >= 0)
+while (num_1 >= 0)
 {
 	*(s + num_1) = *(str + num_2);
 	num_2++;
