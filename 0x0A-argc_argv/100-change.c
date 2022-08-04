@@ -56,15 +56,17 @@ if (argc == 2)
 				if (digit == 0)
 					num1++;
 				else
+				{
 					bucks += digit;
 					cents -= (digit * count[num1]);
+				}
 			}
 		}
 	}
+}
 if (num2 == 0)
 	printf("%i\n", bucks);
 else
 	printf("%s\n", "Error");
 return (num2);
-}
 }
